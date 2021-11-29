@@ -1,0 +1,17 @@
+[sqlalchemy]
+# The type of database to be used by the application.
+db_backend=sqlite3
+# The DBAPI to be used by SQLAlchemy to connect to the database.
+db_api=pysqlite
+
+# SQLite3-specific config options.
+[sqlite3]
+# The path to the SQLite database file (if applicable).
+db_file=~/.camera_db/camdb.db
+# Whether or not we should use an in-memory-only database.
+mem_db=False
+
+# MySQL specific config options.
+# [mysql]
+# db_ip=127.0.0.1
+# db_port=12345
